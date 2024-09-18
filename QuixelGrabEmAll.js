@@ -1,4 +1,4 @@
-// Yaklaşık 10k item elde ettikten sonra 403 hatası verecek. Sayfayı yeniledikten sonra kodu ikinci kez çalıştırmadan önce "startPage = 9" yazmayı unutma 
+// Yaklaşık 10k item elde ettikten sonra 403 hatası verecek. Birkaç dakika bekleyip sayfayı yeniledikten sonra kodu ikinci kez çalıştırmadan önce "startPage = 9" yazmayı unutma 
 (async (startPage = 0, autoClearConsole = true) => {
   // Token'ı kullanıcıdan elle iste
   const authToken = prompt("Lütfen Quixel API token'ınızı girin:");
